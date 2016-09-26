@@ -80,6 +80,4 @@ development:
 #
 production:
   <<: *default
-  database: phishing_production
-  username: phishing
-  password: <%= ENV['PHISHING_DATABASE_PASSWORD'] %>
+  database: db/production.sqlite3
