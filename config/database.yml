@@ -80,4 +80,4 @@ development:
 #
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: phishing_production
